@@ -1,47 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.titulo-principal{
-    font-size: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-.cardimgprincipal{
-    width: 500px;
-    height: 300px;
-}
-.paddingimgprincipal{
-    padding-top: 1px;
-    padding-left: 200px;
-    padding-bottom: 1px;
-    padding-right: 150px;
-}
-.centrar{
-    text-align: center;
-} 
-.alinear-izquierda{
-    text-align: right
-}
-.card{
-    width: 200px;
-    height: 300px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.enlacesindex{
-    margin-left: 200px;
+.sprincipal h1 {
+  font-size: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.colorfonfo{
-    background-color: rgb(192, 164, 127);
+.sprincipal h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 50px 50px;
+  font-size: 50px;
 }
+.sprincipal img {
+  width: 500px;
+  height: 300px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.mainstyle img {
+  width: 200px;
+  height: 300px;
+}
+.mainstyle a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+
+.enlacesindex {
+  margin-left: 200px;
+}
+
+.colorfondo {
+  background-color: rgb(252, 246, 238);
+}
+
 .enlaceregistro {
-    margin-left: 1100px;
+  margin-left: 1100px;
 }
- .cardimgf{
-    width: 30px;
-    height: 30px;
- }   
- .marginfooter{
-margin-top: 300px; 
+
+.footerstyles {
+  margin-top: 300px;
 }
- 
+.footerstyles h2 {
+  text-align: right;
+}
+.footerstyles img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */
