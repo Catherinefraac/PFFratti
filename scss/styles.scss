@@ -1,3 +1,9 @@
+@import "variables";
+@import "cejas";
+@import "manicura";
+@import "pestañas";
+@import "registro";
+@import "sobrenosotros";
 *{
     margin: 0;
     padding: 0;
@@ -33,9 +39,6 @@
 .enlacesindex{
     margin-left: 200px;
 }
-.colorfondo{
-    background-color: rgb(252, 246, 238);
-}
 .enlaceregistro {
     margin-left: 1100px;
 }
@@ -48,4 +51,16 @@
     width: 30px;
     height: 30px;
     }
+}
+.padding{
+    padding: 10px 100px;
+    }
+.font {
+    @extend .padding;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:black
+    }
+.animacionimg:hover{
+    transform: scale(1.1);
 }

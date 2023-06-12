@@ -1,3 +1,18 @@
+.medidaimg {
+  width: 400px;
+  height: 250px;
+}
+
+.medidaimg {
+  width: 400px;
+  height: 250px;
+}
+
+.medidaimg {
+  width: 400px;
+  height: 250px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,10 +49,6 @@
   margin-left: 200px;
 }
 
-.colorfondo {
-  background-color: rgb(252, 246, 238);
-}
-
 .enlaceregistro {
   margin-left: 1100px;
 }
@@ -51,6 +62,20 @@
 .footerstyles img {
   width: 30px;
   height: 30px;
+}
+
+.padding, .font {
+  padding: 10px 100px;
+}
+
+.font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.animacionimg:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=styles.css.map */
